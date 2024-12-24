@@ -5,7 +5,7 @@
 Максимальный балл - 30.
 
 # How to Use the Code
-1. Склонируйте 3 файла (kernel.c, kernel.asm, link.ld).
+1. Склонируйте 4 файла (kernel.c, keyboard_map.h, kernel.asm, link.ld).
 2. Вставьте следующие 3 команды в терминал для компиляции:
 ```bash
 gcc -fno-stack-protector -m32 -c kernel.c -o kc.o
