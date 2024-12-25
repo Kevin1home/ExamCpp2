@@ -18,6 +18,7 @@ g++ -o remote_server remote_server.cpp -pthread
 ./remote_server <port>
 ```
 P.S. Вместо \<port\> введите порт сервера.
+
 5. Запустите программу в терминале со стороны клиента:
 ```bash
 ./remote_client <server_ip> <port>
